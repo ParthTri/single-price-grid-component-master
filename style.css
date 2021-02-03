@@ -8,6 +8,16 @@
 
 body {
 	font-family: "Karla", sans-serif;
+	background-color: hsl(218, 22%, 67%);
+}
+
+.container {
+	margin: 15% 10%;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 2em;
+	padding: 2em;
+	background-color: hsl(0, 0%, 100%);
 }
 
 .attribution {
