@@ -144,10 +144,4 @@ body {
 		border-radius: 0;
 		border-end-end-radius: 5px;
 	}
-
-	footer {
-		position: absolute;
-		bottom: 25%;
-		right: 43%;
-	}
 }
