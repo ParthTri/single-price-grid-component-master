@@ -116,3 +116,38 @@ body {
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
+
+@media (min-width: 1440px) {
+	html,
+	body {
+		height: 100%;
+		display: grid;
+		overflow: hidden;
+	}
+
+	.container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		width: 520px;
+		margin: auto;
+	}
+
+	.community {
+		grid-column: span 2 / auto;
+	}
+
+	.subscription {
+		border-end-start-radius: 5px;
+	}
+
+	.why {
+		border-radius: 0;
+		border-end-end-radius: 5px;
+	}
+
+	footer {
+		position: absolute;
+		bottom: 25%;
+		right: 43%;
+	}
+}
